@@ -61,6 +61,3 @@ class FileStorage:
                 FileStorage.__objects.keys():
             del FileStorage.__objects[obj.__class__.__name__ + "." + obj.id]
 
-    """def close(self):
-        close"""
-
