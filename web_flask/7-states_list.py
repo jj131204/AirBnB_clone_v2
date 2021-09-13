@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Start Flask!!! """
+""" script that starts a Flask web application """
+
 from flask import Flask, render_template
 from models import storage
 from models import state
@@ -23,4 +24,5 @@ def states():
 
 
 if __name__ == '__main__':
+    """test"""
     app.run()
